@@ -243,3 +243,8 @@ This causes about 8-10x slower performance.
 ### 6.2 Flame Graphs
 - **Buggy Version (4.2.1):** [flamegraph.4.2.1.svg](flamegraph.4.2.1.svg) - Shows excessive eviction activity
 - **Non-Buggy Version (4.0.13):** [flamegraph.4.0.13.svg](flamegraph.4.0.13.svg) - Shows normal operation with minimal eviction
+
+### 6.3 Screenshots
+- **Screenshot 1:** [screenshot-20251214-165338.png](screenshot-20251214-165338.png)
+- **Screenshot 2:** [screenshot-20251214-170747.png](screenshot-20251214-170747.png)
+- **Screenshot 3:** [screenshot-20251214-173514.png](screenshot-20251214-173514.png)
