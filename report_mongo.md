@@ -232,3 +232,14 @@ This causes about 8-10x slower performance.
 - **Function:** `__wt_row_leaf_key_copy` in WiredTiger row key handling
 - **Reason:** Too many eviction operations (20-30 per insert) cause page reconciliation
 - **Result:** About 8-10x slower performance because of unnecessary key copying operations
+
+---
+
+## 6. Files and Resources
+
+### 6.1 Reproduction Script
+- **Repro Script:** [repro_4.2.1.sh](repro_4.2.1.sh) - Modified reproduction script for testing
+
+### 6.2 Flame Graphs
+- **Buggy Version (4.2.1):** [flamegraph.4.2.1.svg](flamegraph.4.2.1.svg) - Shows excessive eviction activity
+- **Non-Buggy Version (4.0.13):** [flamegraph.4.0.13.svg](flamegraph.4.0.13.svg) - Shows normal operation with minimal eviction
